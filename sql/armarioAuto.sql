@@ -30,4 +30,17 @@ CREATE TABLE notificacoes (
     data_envio DATE,
     local VARCHAR(20)
     )
+
+
+    CREATE TABLE mercado (
+    mercado_id INT AUTO_INCREMENT PRIMARY KEY,
+    horario_funcionamento VARCHAR(10),
+    telefone VARCHAR(15),
+    api_url VARCHAR(75),
+    nome VARCHAR(30),
+    localizacao VARCHAR(50),
+    criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    atualizado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+    
     
