@@ -21,3 +21,13 @@ CREATE TABLE produto( -- tabela produtos criada, necessario a tabela intermediar
     criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     atualizado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
+CREATE TABLE notificacoes (
+	notificacoes_id INT AUTO_INCREMENT PRIMARY KEY,
+    usuario_id INT,
+    tipo VARCHAR(20),
+    mensagem text,
+    status VARCHAR(10),
+    data_envio DATE,
+    local VARCHAR(20)
+    )
+    
