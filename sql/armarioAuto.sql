@@ -32,7 +32,8 @@ CREATE TABLE notificacoes (
     data_envio DATE,
     local VARCHAR(20),
     criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    atualizado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+    atualizado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (usuario_id) REFERENCES usuario(usuario_id)
     );
 
 
@@ -58,18 +59,27 @@ CREATE TABLE mercado (
 CREATE TABLE historico_consumo(
 	historico_id INT AUTO_INCREMENT PRIMARY KEY,
 	produto_id INT,
-	usuario INT,
+	usuario_id INT,
 	quantidade_gramas DECIMAL(5,2),
 	arquivo_atual_criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 	arquivo_atualizado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-	local_stl varchar(80)
+	local_stl varchar(80),
+    FOREIGN KEY (produto_id) REFERENCES produto(produto_id),
+    FOREIGN KEY (usuario_id) REFERENCES usuario(usuario_id)
+);
+
+CREATE TABLE pedidos(
+	pedidos_id 	INT AUTO_INCREMENT PRIMARY KEY,
+    usuario_id INT,
+    mercado_id INT,
+    status VARCHAR(84),
+    total float,
+    arquivo_atual_criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	arquivo_atualizado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (usuario_id) REFERENCES usuario(usuario_id),
+    FOREIGN KEY (mercado_id) REFERENCES mercado(mercado_id)
 );
 
 SHOW TABLES;
 
-ALTER TABLE usuario
-ADD criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
-
-ALTER TABLE usuario
-ADD atualizado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
 
