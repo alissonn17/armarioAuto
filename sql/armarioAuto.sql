@@ -88,6 +88,19 @@ CREATE TABLE pedidos(
     FOREIGN KEY (mercado_id) REFERENCES mercado(mercado_id)
 );
 
+CREATE TABLE metasNutricionias(
+	metas_id INT AUTO_INCREMENT PRIMARY KEY,
+    usuario_id INT,
+    data_criacao DATETIME,
+    meta_carboidratos INT,
+    meta_calorias INT,
+    meta_proteinas INT,
+    meta_gorduras INT,
+    arquivo_atual_criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	arquivo_atualizado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (usuario_id) REFERENCES usuario(usuario_id)
+);
+
 SHOW TABLES;
 
 INSERT INTO usuario (nome, email, senha, saldo_cashback)
@@ -290,3 +303,24 @@ VALUES
 (31, 20),
 (32, 5);
 
+INSERT INTO metasNutricionias (usuario_id, data_criacao, meta_carboidratos, meta_calorias, meta_proteinas, meta_gorduras) VALUES
+(1, '2025-03-01 08:00:00', 250, 2000, 80, 70),
+(2, '2025-03-02 09:00:00', 300, 2200, 100, 80),
+(3, '2025-03-03 10:00:00', 200, 1800, 70, 60),
+(4, '2025-03-04 11:00:00', 270, 2100, 85, 75),
+(5, '2025-03-05 12:00:00', 240, 1900, 75, 65),
+(6, '2025-03-06 13:00:00', 280, 2300, 90, 85),
+(7, '2025-03-07 14:00:00', 260, 2000, 80, 70),
+(8, '2025-03-08 15:00:00', 310, 2500, 110, 90),
+(9, '2025-03-09 16:00:00', 230, 1900, 75, 65),
+(10, '2025-03-10 17:00:00', 290, 2200, 95, 85),
+(11, '2025-03-11 18:00:00', 250, 2000, 80, 70),
+(12, '2025-03-12 19:00:00', 270, 2100, 85, 75),
+(13, '2025-03-13 20:00:00', 240, 1900, 75, 65),
+(14, '2025-03-14 21:00:00', 300, 2200, 100, 80),
+(15, '2025-03-15 22:00:00', 200, 1800, 70, 60),
+(16, '2025-03-16 23:00:00', 280, 2300, 90, 85),
+(17, '2025-03-17 08:00:00', 250, 2000, 80, 70),
+(18, '2025-03-18 09:00:00', 310, 2500, 110, 90),
+(19, '2025-03-19 10:00:00', 260, 2000, 80, 70),
+(20, '2025-03-20 11:00:00', 290, 2200, 95, 85);
