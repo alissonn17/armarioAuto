@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="Table1">
+	<Table>
+		<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Row>
+			<Cell><Data ss:Type="String">nome</Data></Cell>
+			<Cell><Data ss:Type="String">preco</Data></Cell>
+			<Cell><Data ss:Type="String">status</Data></Cell>
+		</Row>
+
+		<Row>
+			<Cell><Data ss:Type="String">Refrigerante</Data></Cell>
+			<Cell><Data ss:Type="Number">7.99</Data></Cell>
+			<Cell><Data ss:Type="String">Concluído</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Leite</Data></Cell>
+			<Cell><Data ss:Type="Number">6.50</Data></Cell>
+			<Cell><Data ss:Type="String">Pendente</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Condicionador</Data></Cell>
+			<Cell><Data ss:Type="Number">15.50</Data></Cell>
+			<Cell><Data ss:Type="String">Cancelado</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Frango</Data></Cell>
+			<Cell><Data ss:Type="Number">18.99</Data></Cell>
+			<Cell><Data ss:Type="String">Concluído</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Farinha</Data></Cell>
+			<Cell><Data ss:Type="Number">3.50</Data></Cell>
+			<Cell><Data ss:Type="String">Pendente</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Margarina</Data></Cell>
+			<Cell><Data ss:Type="Number">3.99</Data></Cell>
+			<Cell><Data ss:Type="String">Concluído</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Detergente</Data></Cell>
+			<Cell><Data ss:Type="Number">2.49</Data></Cell>
+			<Cell><Data ss:Type="String">Em Andamento</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Papel Higiênico</Data></Cell>
+			<Cell><Data ss:Type="Number">15.99</Data></Cell>
+			<Cell><Data ss:Type="String">Concluído</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Óleo</Data></Cell>
+			<Cell><Data ss:Type="Number">9.90</Data></Cell>
+			<Cell><Data ss:Type="String">Cancelado</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Shampoo</Data></Cell>
+			<Cell><Data ss:Type="Number">15.00</Data></Cell>
+			<Cell><Data ss:Type="String">Pendente</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Biscoito</Data></Cell>
+			<Cell><Data ss:Type="Number">2.99</Data></Cell>
+			<Cell><Data ss:Type="String">Concluído</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Presunto</Data></Cell>
+			<Cell><Data ss:Type="Number">13.99</Data></Cell>
+			<Cell><Data ss:Type="String">Em Andamento</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Café</Data></Cell>
+			<Cell><Data ss:Type="Number">12.99</Data></Cell>
+			<Cell><Data ss:Type="String">Pendente</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Cerveja</Data></Cell>
+			<Cell><Data ss:Type="Number">8.99</Data></Cell>
+			<Cell><Data ss:Type="String">Concluído</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Açúcar</Data></Cell>
+			<Cell><Data ss:Type="Number">4.75</Data></Cell>
+			<Cell><Data ss:Type="String">Em Andamento</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Carne</Data></Cell>
+			<Cell><Data ss:Type="Number">25.00</Data></Cell>
+			<Cell><Data ss:Type="String">Concluído</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Macarrão</Data></Cell>
+			<Cell><Data ss:Type="Number">3.99</Data></Cell>
+			<Cell><Data ss:Type="String">Pendente</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Sabão</Data></Cell>
+			<Cell><Data ss:Type="Number">1.99</Data></Cell>
+			<Cell><Data ss:Type="String">Cancelado</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Iogurte</Data></Cell>
+			<Cell><Data ss:Type="Number">4.50</Data></Cell>
+			<Cell><Data ss:Type="String">Concluído</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Arroz</Data></Cell>
+			<Cell><Data ss:Type="Number">5.99</Data></Cell>
+			<Cell><Data ss:Type="String">Em Andamento</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Sabonete</Data></Cell>
+			<Cell><Data ss:Type="Number">2.20</Data></Cell>
+			<Cell><Data ss:Type="String">Pendente</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Feijão</Data></Cell>
+			<Cell><Data ss:Type="Number">4.49</Data></Cell>
+			<Cell><Data ss:Type="String">Concluído</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Peixe</Data></Cell>
+			<Cell><Data ss:Type="Number">22.50</Data></Cell>
+			<Cell><Data ss:Type="String">Cancelado</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Amaciante</Data></Cell>
+			<Cell><Data ss:Type="Number">8.90</Data></Cell>
+			<Cell><Data ss:Type="String">Pendente</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Chocolate</Data></Cell>
+			<Cell><Data ss:Type="Number">7.50</Data></Cell>
+			<Cell><Data ss:Type="String">Concluído</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Pasta de Dente</Data></Cell>
+			<Cell><Data ss:Type="Number">3.50</Data></Cell>
+			<Cell><Data ss:Type="String">Em Andamento</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Queijo</Data></Cell>
+			<Cell><Data ss:Type="Number">14.50</Data></Cell>
+			<Cell><Data ss:Type="String">Cancelado</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Manteiga</Data></Cell>
+			<Cell><Data ss:Type="Number">6.99</Data></Cell>
+			<Cell><Data ss:Type="String">Concluído</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Suco</Data></Cell>
+			<Cell><Data ss:Type="Number">5.99</Data></Cell>
+			<Cell><Data ss:Type="String">Pendente</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Água</Data></Cell>
+			<Cell><Data ss:Type="Number">1.50</Data></Cell>
+			<Cell><Data ss:Type="String">Em Andamento</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Frango</Data></Cell>
+			<Cell><Data ss:Type="Number">18.99</Data></Cell>
+			<Cell><Data ss:Type="String">Cancelado</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Leite</Data></Cell>
+			<Cell><Data ss:Type="Number">6.50</Data></Cell>
+			<Cell><Data ss:Type="String">Concluído</Data></Cell>
+		</Row>	</Table>
+</Worksheet>
+</Workbook>
