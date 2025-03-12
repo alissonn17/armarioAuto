@@ -1,0 +1,28 @@
+produto_id,local_stl,categoria
+1,"São Paulo/mercado/modelo1.stl",Alimento
+5,"Rio de Janeiro/mercado/modelo2.stl",Bebida
+10,"Belo Horizonte/mercado/modelo3.stl",Bebida
+12,"Porto Alegre/mercado/modelo4.stl",Limpeza
+7,Curitiba/mercado/modelo5.stl,Alimento
+18,Salvador/mercado/modelo6.stl,Higiene
+4,Recife/mercado/modelo7.stl,Alimento
+9,Fortaleza/mercado/modelo8.stl,Alimento
+14,Brasília/mercado/modelo9.stl,Higiene
+6,Goiânia/mercado/modelo10.stl,Bebida
+3,Vitória/mercado/modelo11.stl,Alimento
+11,Manaus/mercado/modelo12.stl,Limpeza
+20,Florianópolis/mercado/modelo13.stl,Alimento
+13,Maceió/mercado/modelo14.stl,Limpeza
+2,"João Pessoa/mercado/modelo15.stl",Alimento
+8,Natal/mercado/modelo16.stl,Alimento
+15,"Campo Grande/mercado/modelo17.stl",Higiene
+16,Belém/mercado/modelo18.stl,Higiene
+30,Macapá/mercado/modelo19.stl,Bebida
+25,Cuiabá/mercado/modelo20.stl,Alimento
+22,Aracaju/mercado/modelo21.stl,Alimento
+27,"São Luís/mercado/modelo22.stl",Alimento
+19,"Porto Velho/mercado/modelo23.stl",Alimento
+24,"Rio Branco/mercado/modelo24.stl",Bebida
+17,"Boa Vista/mercado/modelo25.stl",Higiene
+21,Palmas/mercado/modelo26.stl,Alimento
+29,Teresina/mercado/modelo27.stl,Bebida
