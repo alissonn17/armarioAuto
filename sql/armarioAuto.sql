@@ -49,20 +49,6 @@ CREATE TABLE mercado (
     criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     atualizado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
-   
-   
-    
-CREATE TABLE pedidos_produto(
-    id INT AUTO_INCREMENT PRIMARY KEY,
-	pedidos_id INT,
-	produto_id INT,
-    criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    atualizado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-	FOREIGN KEY (pedidos_id) REFERENCES pedidos (pedidos_id),
-	FOREIGN KEY (produto_id) REFERENCES produto (produto_id)
-);
-
-
 
 CREATE TABLE historico_consumo(
 	historico_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -86,6 +72,16 @@ CREATE TABLE pedidos(
 	arquivo_atualizado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     FOREIGN KEY (usuario_id) REFERENCES usuario(usuario_id),
     FOREIGN KEY (mercado_id) REFERENCES mercado(mercado_id)
+);
+
+CREATE TABLE pedidos_produto(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+	pedidos_id INT,
+	produto_id INT,
+    criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    atualizado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+	FOREIGN KEY (pedidos_id) REFERENCES pedidos (pedidos_id),
+	FOREIGN KEY (produto_id) REFERENCES produto (produto_id)
 );
 
 CREATE TABLE metasNutricionias(
