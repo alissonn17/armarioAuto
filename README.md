@@ -33,8 +33,8 @@ Este repositório contém os seguintes diretórios e arquivos principais:
 
 ## 🚀 Funcionalidades Principais  
 
-- 🔐 **Controle de Acesso** → Gerenciamento de permissões para usuários autorizados.  
-- 📡 **Monitoramento em Tempo Real** → Identificação de padrões de uso e possíveis irregularidades.  
+- 🔐 **Controle de Acesso** → Gerenciamento de permissões para usuários autorizados.  (EM BREVE)
+- 📡 **Monitoramento em Tempo Real** → Identificação de padrões de uso e possíveis irregularidades.  (EM BREVE)
 - 📊 **Relatórios e Análises** → Geração de gráficos e relatórios detalhados.  
 - 🖥️ **Interface Amigável** → Design intuitivo para usuários de diferentes níveis técnicos.  (EM BREVE)
 
